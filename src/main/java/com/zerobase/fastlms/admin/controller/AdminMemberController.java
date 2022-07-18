@@ -24,7 +24,6 @@ public class AdminMemberController extends BaseController {
     public String list(Model model, MemberParam parameter) {
 
         parameter.init();
-
         List<MemberDto> members = memberService.list(parameter);
 
         long totalCount = 0;
