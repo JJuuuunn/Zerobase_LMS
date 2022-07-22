@@ -44,6 +44,8 @@
         select *
         from member
         where 1 = 1
+--         order by reg_dt
+        order by reg_dt
             <include refid="selectListWhere"/>
 
         limit #{pageStart}, #{pageEnd}

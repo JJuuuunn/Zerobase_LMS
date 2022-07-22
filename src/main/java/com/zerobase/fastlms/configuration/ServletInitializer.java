@@ -1,4 +1,4 @@
-package com.zerobase.fastlms.comfiguration;
+package com.zerobase.fastlms.configuration;
 
 import com.zerobase.fastlms.FastlmsApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

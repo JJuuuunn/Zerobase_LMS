@@ -22,4 +22,9 @@ public interface CategoryService {
      */
     boolean del(long id);
 
+    /**
+     * 프론드 카테고리 정보
+     */
+    List<CategoryDto> frontList(CategoryDto parameter);
+
 }
